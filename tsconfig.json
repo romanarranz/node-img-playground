@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "es2018",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": [
+        "esnext",
+        "dom"
+      ],
+      "declaration": false,
+      "importHelpers": true,
+      "removeComments": true,
+      
+      /* Strict Type-Checking Options */
+      "strict": true,
+      "strictPropertyInitialization": false,
+      
+      /* Additional Checks */
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      
+      /* Other Options */
+      "downlevelIteration": false,
+      "pretty": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "baseUrl": ".",
+  
+      /* Build */
+      "rootDir": "./src",
+      "outDir": "./build"
+    },
+    "exclude": ["node_modules", "build", "infra", "test"]
+  }
+  
